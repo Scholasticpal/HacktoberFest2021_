@@ -20,7 +20,7 @@ Click on "Start Hacking" and sign in with your GitHub account.
 
 GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, acmbvp is the owner of the Hacktoberfest repository, so the GitHub URL for this project is:
 
-https://github.com/Scholaticpal/Hacktoberfest
+https://github.com/Scholaticpal/HacktoberFest2021_
 
 
 ![screenshot-star](https://github.com/wir-cod/Hacktoberfest/blob/master/star.png)
@@ -36,7 +36,7 @@ To make your own local copy of the repository you would like to contribute to, l
 We’ll use the `git clone`  command along with the URL that points to your fork of the repository.
 
 This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
-https://github.com/your-username/Hacktoberfest.git
+https://github.com/your-username/HacktoberFest2021_.git
 
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
 
@@ -46,13 +46,13 @@ You can alternatively copy the URL by using the green “Clone or download” bu
 
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 
-`git clone https://github.com/your-username/Hacktoberfest.git`
+`git clone https://github.com/your-username/HacktoberFest2021_.git`
 
 ### 4. Create a New Branch
 
 To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to switch into that directory.
 
-#####    `cd Hacktoberfest`
+#####    `cd HacktoberFest2021_`
 
 Now, we’ll create our new branch with the git branch command. Make sure you name it descriptively so that others working on the project understand what you are working on.
 
@@ -111,7 +111,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/Scholaticpal/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/Scholaticpal/HacktoberFest2021_.git `
 
 
 ![screenshot 74](https://user-images.githubusercontent.com/37223446/47235672-5f0efa00-d3f7-11e8-9e45-1af02d8b969b.png)
