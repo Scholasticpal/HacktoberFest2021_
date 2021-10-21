@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the belolw button to initialize an Array of size 10 and pass the array to function</p>
+<button onclick="initArray()">Init Array of Size 10</button>
+<p id="output"></p>
+
+<script>
+    function initArray() {
+      var myArray=[];
+      
+      for(var i=0; i< 10; i++) {
+          var element = prompt("Enter any random character, number, word to be part of array", (i+1));
+        myArray.push(element);
+      }
+      //pass array to display function
+      display(myArray);
+    }
+
+    function display(thisArray) {
+      document.getElementById("output").innerHTML = "Your Array is [" + thisArray.join(",") + "]";
+    }
+    </script>
+</body>
+</html>
