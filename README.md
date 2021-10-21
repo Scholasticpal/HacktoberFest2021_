@@ -20,10 +20,10 @@ Click on "Start Hacking" and sign in with your GitHub account.
 
 GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, acmbvp is the owner of the Hacktoberfest repository, so the GitHub URL for this project is:
 
-https://github.com/wir-coders/Hacktoberfest
+https://github.com/Scholaticpal/Hacktoberfest
 
 
-![screenshot-star](https://github.com/wir-coders/Hacktoberfest/blob/master/star.png)
+![screenshot-star](https://github.com/wir-cod/Hacktoberfest/blob/master/star.png)
 
 ![screenshot-fork](https://github.com/wir-coders/Hacktoberfest/blob/master/fork.png)
 
@@ -111,7 +111,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/wir-coders/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/Scholaticpal/Hacktoberfest.git `
 
 
 ![screenshot 74](https://user-images.githubusercontent.com/37223446/47235672-5f0efa00-d3f7-11e8-9e45-1af02d8b969b.png)
