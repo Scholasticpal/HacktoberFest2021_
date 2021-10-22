@@ -1,7 +1,7 @@
 """ Binary Search Algorithm 
 ----------------------------------------
 """
-// iterative implementation of binary search in Python
+#iterative implementation of binary search in Python
 def binary_search(a_list, item):
     """Performs iterative binary search to find the position of an integer in a given, sorted, list.
     a_list -- sorted list of integers
@@ -19,7 +19,7 @@ def binary_search(a_list, item):
             first = i + 1
         else:
             return ' not found in the list'.format(item=item)
-// recursive implementation of binary search in Python
+# recursive implementation of binary search in Python
 def binary_search_recursive(a_list, item):
     """Performs recursive binary search of an integer in a given, sorted, list.
     a_list -- sorted list of integers
