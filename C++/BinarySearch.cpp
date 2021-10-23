@@ -1,37 +1,33 @@
-//  Binary Search
-#include <bits/stdc++.h>
+#include<iostream>
+#include<cstdio>
+#include<cmath>
 using namespace std;
-
-
-int binarySearch(int arr[], int l, int r, int x)
+int binary_search(int A[], int left, int right, int key) 
 {
-	if (r >= l) {
-		int mid = l + (r - l) / 2;
-
-		
-		if (arr[mid] == x)
-			return mid;
-
-		
-		if (arr[mid] > x)
-			return binarySearch(arr, l, mid - 1, x);
-
-		
-		return binarySearch(arr, mid + 1, r, x);
-	}
-
-	// We reach here when element is not
-	// present in array
-	return -1;
+  int m;
+  while( left <= right )     
+  {
+    m = left + (right-left)/2;
+    if( A[m] == key )     // Element found
+      return m;
+    if( A[m] < key )         // Search in right part of list
+      left = m + 1;
+    else            // Search in left part of list
+      right = m - 1;
+  }
+  return -1;
 }
 
-int main(void)
+int main() 
 {
-	int arr[] = { 2, 3, 4, 10, 40 };
-	int x = 10;
-	int n = sizeof(arr) / sizeof(arr[0]);
-	int result = binarySearch(arr, 0, n - 1, x);
-	(result == -1) ? cout << "Element is not present in array"
-				: cout << "Element is present at index " << result;
-	return 0;
+  int loc, x, array[]={10,11,12,13,14,25,26,37,48,59};
+  x = 26;        // element to be searched in the array
+  loc=binary_search(array,0,10,x);
+  if(loc != -1)
+    cout<<"Element found at location : "<<loc;
+  else
+    cout<<"Element not present in the array.";
+  return 0;
 }
+
+//Contributed by Anant Chaudhary
