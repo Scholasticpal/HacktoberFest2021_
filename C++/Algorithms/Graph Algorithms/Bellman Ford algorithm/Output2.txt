@@ -1,0 +1,10 @@
+Implementation of Bellman - Ford Algorithm :
+
+When source is taken as vertex S:
+Vertex		Distance from Source
+S			0
+T			2
+X			4
+Y			7
+Z			-2
+
