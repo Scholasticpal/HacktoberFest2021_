@@ -7,7 +7,7 @@ Hacktober fest is a celebration open to everyone in the global community. It is 
 *Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on ``Sign up`` option at the top right corner.*
 
 ### 1. Register yourself for Hacktoberfest
-###### Link to register: https://hacktoberfest.digitalocean.com/login
+###### Link to register: https://hacktoberfest.digitalocean.com/
 Click on "Start Hacking" and sign in with your GitHub account.
 
 ![banner-dark](https://user-images.githubusercontent.com/54072449/137883689-0f56c15c-6f1b-4310-875f-938487787bcf.png)
@@ -23,9 +23,10 @@ GitHub repository URLs will reference both the username associated with the owne
 https://github.com/Scholaticpal/HacktoberFest2021_
 
 
-![screenshot-star](https://github.com/wir-cod/Hacktoberfest/blob/master/star.png)
+![image](https://user-images.githubusercontent.com/40875400/138921689-20435dcd-02ca-418e-950d-660fa5dc5710.png)
 
-![screenshot-fork](https://github.com/wir-coders/Hacktoberfest/blob/master/fork.png)
+![image](https://user-images.githubusercontent.com/40875400/138922749-faf692a6-549c-4cf6-9263-666923b513bd.png)
+
 
 When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
@@ -41,7 +42,7 @@ https://github.com/your-username/HacktoberFest2021_.git
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
 
 
-![screenshot 73](https://github.com/wir-coders/Hacktoberfest/blob/master/lp.png)
+![image](https://user-images.githubusercontent.com/40875400/138923110-9fb9cd91-1951-4fd4-869f-d0e2cefecc5a.png)
 
 
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
