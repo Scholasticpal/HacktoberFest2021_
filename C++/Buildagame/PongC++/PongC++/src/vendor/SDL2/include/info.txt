@@ -1,0 +1,1 @@
+The header files of SDL2 go in this directory. You might delete this info file, but remember that SDL2 header files are required to play the game.
