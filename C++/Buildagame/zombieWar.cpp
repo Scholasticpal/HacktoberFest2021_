@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
-#include <Windows.h> //When we are using windows operating we include this header to use the sleep() function.
+#include <thread> 
+
 using namespace std;
+using namespace std::literals::chrono_literals;
 
 int createZombie() {
     if (rand() % 67 < 10)
@@ -53,7 +55,7 @@ int main() {
         }
 
         cout << "Fighting..." << endl;
-        Sleep(2);
+        std::this_thread::sleep_for(2s);
 
         // zombie killed the player
         if (playerSkill < zombieSkill) {
@@ -86,7 +88,7 @@ int main() {
         }
 
         cout << endl;
-        Sleep(1);
+        std::this_thread::sleep_for(1s);
     }
 
     // end game
